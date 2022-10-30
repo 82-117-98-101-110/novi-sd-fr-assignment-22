@@ -1,0 +1,96 @@
+.logo-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ravel-logo img {
+  width: 192px;
+  height: 48px;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  /*padding: 2px 15px;*/
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  /*margin-bottom: 20px;*/
+  /*margin-top: 2px;*/
+  width: 270px;
+  height: 46px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  /*letter-spacing: -0.531474px;*/
+  color: #000000;
+}
+
+button[type="submit"],
+input[type="submit"] {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  /*letter-spacing: -0.531474px;*/
+  padding: 7px;
+  width: 270px;
+  height: 50px;
+  background: #4318ff;
+  border: 0px solid #000000;
+  border-radius: 120px;
+  margin: 24px 0px;
+}
+
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+  background: #2200b7;
+  color: #ffffff;
+  border: 0px solid #000000;
+}
+
+button[type="submit"]:active,
+input[type="button"]:active,
+input[type="submit"]:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  opacity: 0.8;
+}
+input:disabled {
+  opacity: 0.4;
+}
+
+input[type="button"]:hover {
+  transition: 0.3s all;
+}
+
+button[type="submit"],
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: none;
+}
