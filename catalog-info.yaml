@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: novi-sd-fr-assignment-22
+  annotations:
+    github.com/project-slug: 82-117-98-101-110/novi-sd-fr-assignment-22
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
